@@ -2,7 +2,7 @@
 layout: search
 title: Search
 permalink: /search/
-subtitle: "What are you looking for?<br><br>"
-feature-img: "assets/img/pexels/apple-clean-containers.jpg"
+subtitle: "What are you looking for?"
+feature-img: "assets/img/pexels/header.jpg"
 icon: "fa-search"
 ---

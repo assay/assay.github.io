@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Feature images
-feature-img: "assets/img/pexels/desk-messy.jpeg"
-thumbnail: "assets/img/thumbnails/desk-messy.jpeg"
-image: "assets/img/thumbnails/desk-messy.jpg" #seo tag
+feature-img: "assets/img/pexels/apple-desk-imac.jpg"
+thumbnail: "assets/img/pexels/apple-desk-imac.jpg"
+#image: "assets/img/pexels/apple-desk-imac.jpg" #seo tag
 tags: [Test, Lorem]
 author-id: some-name
 ---
