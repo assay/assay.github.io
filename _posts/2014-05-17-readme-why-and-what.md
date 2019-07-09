@@ -4,15 +4,17 @@ title: "README.md: Why? and What?"
 feature-img: assets/img/pexels/desk-coffee.jpg
 tags: [README]
 author-id: nettle
+excerpt_separator: <!--more-->
 ---
 
 # Why?
 
 For those who work with [FOSS](https://wikipedia.org/wiki/FOSS) (Free and Open Source Software)
-there is no such a question - `Why README.md?`.
+there is no such a question - `Why README.md?`<br>
 The Source Code is open and published, products are free and can be used by anyone,
 so README file is what user read first to get know the product and/or the code.
 The README is an "entry point" for the FOSS projects.
+<!--more-->
 Especially if they are hosted at [GitHub](https://github.com) or similar Open Source portals
 where [Markdown](https://wikipedia.org/wiki/Markdown) became a standard
 for [README](https://wikipedia.org/wiki/README) files, that's why we talk about **README.md**.
