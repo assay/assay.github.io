@@ -46,6 +46,8 @@ sass:
   sass_dir: _sass
   style: :compressed
 plugins: [jekyll-paginate, jekyll-seo-tag]
-exclude: [".jekyll-cache", "Gemfile", "Gemfile.lock", "*.gem",
+exclude: [".jekyll-cache",
+          "Gemfile", "Gemfile.lock", "*.gem",
+          "Dockerfile", "docker-compose.yml",
           "LICENSE", "README.md"]
 # theme: white-type # Uncomment if using the theme as a jekyll theme gem
