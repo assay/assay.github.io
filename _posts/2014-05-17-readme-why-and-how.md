@@ -28,6 +28,15 @@ What is this Source Code and How to use it, no matter free it or commercial, ope
 
 All software companies care about maintainability trying minimize expenses for the Source Code support.
 That's why successful onces always have internal documentation where README file is the simples one.
+README files are always useful for newcomers and just for people who never seen some particular
+modules, libraries, parts of the code.
+
+However README files must be written wisely, not formally.
+They will be really useful only if they answer to the questions which are actually asked.
+So [writing a README is an Art](https://github.com/noffle/art-of-readme).
+Some guys even think that the
+[README is the most important file](http://tom.preston-werner.com/2010/08/23/readme-driven-development.html)
+in your project.
 
 # How?
 
@@ -64,9 +73,9 @@ Today the most popular format for README is Markdown, and here is why:
    [GitHub](https://github.com), [GitLab](https://gitlab.com),
    [Gitiles](https://gerrit.googlesource.com/gitiles/) etc
 
-Despite the popularity Markdown is still not standardized.
-There is a number of variants of Markdown which provide additional formatting possibilities
-(we can consider them as extensions) which called flavors.
+Despite the popularity Markdown is still not standardized officially.
+There is a number of variants of Markdown implementations which provide additional
+formatting possibilities (we can consider them as extensions) which called flavors.
 Note that the core specification of all Markdown variants is the same,
 so 90% of all Markdown flavors are compatible.
 Besides Markdown is still plain text.
@@ -98,10 +107,10 @@ So we can define very basic sections like the following:
 2. **Description**
 3. **File structure**
 4. **Requirements**
-5. **How to build**
-6. **How to test**
-7. **How to install**
-8. **How to use**
+5. **How to build / Building**
+6. **How to test / Testing**
+7. **How to install / Installation**
+8. **How to use / Usage**
 
 Sometimes README files may also contain the following optional sections:
 
@@ -110,18 +119,31 @@ Sometimes README files may also contain the following optional sections:
 * **Versions / Release History** - sure, if the list of releases is not long,
   otherwise you can put it in special `CHANGELOG` file
 * **How to contribute** - you can add this too,
-  but probably `CONTRIBUTING.md` file would be better
+  but probably standard `CONTRIBUTING.md` file would be better
 * **License** - hm... it would be better to use `LICENSE` file
 * **Authors** - absolutely good idea!
-* **Acknowledgments** - no problem ☺, if you want
+* **Acknowledgments / Credits** - no problem ☺, if you want
 
 ### Rules
 
-* You can use "flavored" Markdown formats but make sure that
-  your README.md can be correctly shown as a plain text!
-* Recommended Max line length: 100.
-  This is important to correctly display your README.md as a plain text!
-* Do not use tab symbols - they are just useless in Markdown
+Here are some basic rules which are recommended to follow when writing README.md:
+
+1. Always make sure that README.md can be normally read as plain text.<br>
+   Just use `cat README.md`
+2. Try to avoid long lines, break them with word-wrap.<br>
+   Recommended max line length is 100.<br>
+   This is important to correctly display your README.md as a plain text!
+3. Follow [CommonMark](https://commonmark.org/) specification to ensure
+   compatibility among various Markdown viewers
+4. Use text editors which have syntax highlighting for Markdown -
+   it will help you to check Markdown syntax on-the-fly
+   and also see better the structure of your README.md
+5. Be careful when using specific "flavored" Markdown formats
+   - make sure your README.md can be correctly shown as a plain text
+   - check that README.md is correctly rendered by the target viewer
+   - check also that README.md can be rendered by other viewers (GitHub, GitLab etc)
+   - anyway, try to follow [CommonMark](https://commonmark.org/) spec
+6. Do not use tab symbols - they are just useless in Markdown
 
 ## Template
 
