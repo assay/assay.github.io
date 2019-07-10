@@ -83,14 +83,37 @@ You can also take a look at long list of
 
 ### Sections
 
-What information we want to get from README file?
+What kind of information we usually want from README file?<br>
+First we usually ask - `What is it?`<br>
+When we find the answer we usually decide to use it or forget it.<br>
+So the next question is usually - `How to use it?`<br>
+Since it is usually the Source Code then next we ask - `How to build it?`<br>
+Then we may go deeper and ask some more question:<br>
+`How to install?`, `How to test?`, `What are these files?`, `How it works?`.
 
-* How to contribute? - CONTRIBUTING.md
-* License? - LICENSE
-* How it works? - docs
-* Versioning? Release History?
-* Authors?
-* Acknowledgments?
+Sections of our README.md file should reflect these questions.
+So we can define very basic sections like the following:
+
+1. **The title**
+2. **Description**
+3. **File structure**
+4. **Requirements**
+5. **How to build**
+6. **How to test**
+7. **How to install**
+8. **How to use**
+
+Sometimes README files may also contain the following optional sections:
+
+* **How it works** - however the description might be long,
+  in this case it would be better to provide extensive documentation in `docs` folder
+* **Versions / Release History** - sure, if the list of releases is not long,
+  otherwise you can put it in special `CHANGELOG` file
+* **How to contribute** - you can add this too,
+  but probably `CONTRIBUTING.md` file would be better
+* **License** - hm... it would be better to use `LICENSE` file
+* **Authors** - absolutely good idea!
+* **Acknowledgments** - no problem ☺, if you want
 
 ### Rules
 
