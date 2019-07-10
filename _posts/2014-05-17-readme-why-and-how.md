@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "README.md: Why? and What?"
+title: "README.md: Why? and How?"
 feature-img: assets/img/pexels/desk-coffee.jpg
 tags: [README]
 author-id: nettle
@@ -29,9 +29,10 @@ What is this Source Code and How to use it, no matter free it or commercial, ope
 All software companies care about maintainability trying minimize expenses for the Source Code support.
 That's why successful onces always have internal documentation where README file is the simples one.
 
-# What?
+# How?
 
-Well, the question is actually not What but *How good README file should look like?*
+How to make README file most useful?
+How good README file should look like?
 
 - What file format to use?
 - Which sections should it contain?
@@ -39,20 +40,46 @@ Well, the question is actually not What but *How good README file should look li
 
 ### File format
 
-Many formats but we choose Markdown, why?
+There are many formats for README.
+Historically a lot of projects have README in a plain TXT format (README.txt).
+Well, it is a bit old-fashioned but always works.
+Other formats might be HTML, [RST](https://wikipedia.org/wiki/ReStructuredText),
+[Textile](https://textile-lang.com/), [RDoc](https://ruby.github.io/rdoc/),
+[AsciiDoc](http://asciidoc.org/), and some others, sometimes even PDF, DOC or RTF.
+However they are not so popular usually due to their complexity.
+Today the most popular format for README is Markdown, and here is why:
 
-* Markdown format is very simple.
-  You need less than 5 min to start writing text in Markdown.
-* Markdown can and should! be read as plain text.
-* At the same time Markdown provides good formatting possibilities,
-  lake multilevel text structure, paragraphs, lists, tables, images, links etc
-* README.md became a standard de-facto for the source code organization.
-  Today README.md is being considered as a default README file.
-* README.md is rendered by the most of Git repo viewers (e.g. GitHub, GitLab, Gitiles etc)
+1. Markdown format is *very simple*.<br>
+   You can [learn it in 10 min](https://commonmark.org/help/tutorial/)
+   or even [in 60 sec](https://commonmark.org/help/) ☺
+2. Markdown can and should! be read as *plain text*.
+3. At the same time Markdown provides good *formatting possibilities*,<br>
+   like multilevel text structure, paragraphs, lists, tables, images, quotes, links etc
+4. It also supports *embedded HTML*.<br>
+   So you can use the power of HTML markup if pure Markdown is not enough.
+5. README.md became a *standard de-facto* for the source code organization,
+   especially for Open Source projects.<br>
+   Today README.md is being considered as a default README file.
+6. README.md is automatically rendered by the most of *Git repo* viewers like<br>
+   [GitHub](https://github.com), [GitLab](https://gitlab.com),
+   [Gitiles](https://gerrit.googlesource.com/gitiles/) etc
 
-Markdown flavors:
+Despite the popularity Markdown is still not standardized.
+There is a number of variants of Markdown which provide additional formatting possibilities
+(we can consider them as extensions) which called flavors.
+Note that the core specification of all Markdown variants is the same,
+so 90% of all Markdown flavors are compatible.
+Besides Markdown is still plain text.
 
-* ❓
+The following Markdown flavors are recommended since they are the most popular:
+* [CommonMark](https://commonmark.org/) - strongly defined, highly compatible specification of Markdown
+* [GitHub Flavored Markdown](https://github.github.com/gfm/)
+  ([short version](https://help.github.com/articles/basic-writing-and-formatting-syntax))
+* [GitLab Flavored Markdown](https://docs.gitlab.com/ce/user/markdown.html)
+* [Gitiles Markdown](https://gerrit.googlesource.com/gitiles/+/HEAD/Documentation/markdown.md)
+
+You can also take a look at long list of
+[Markdown Flavors](https://github.com/commonmark/commonmark-spec/wiki/Markdown-Flavors).
 
 ### Sections
 
