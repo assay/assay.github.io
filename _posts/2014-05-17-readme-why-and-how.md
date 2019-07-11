@@ -199,26 +199,26 @@ Add usage examples.
 ## Example
 
 ```md
-Something
-=========
+Foobar
+======
 
-This is a library and a tool which implement simple functionality.
+Foobar is a library and a tool which implement simple functionality.
 It does something with something to produce interesting artifacts.
-The library can be used in as a shared object with simple C API.
+The library can be used as a shared object with simple C API.
 The tool is a conventional linux command line (CLI) application.
 
 Folder structure
 ----------------
 
 - `Makefile`           - simple Makefile to build, clean etc
-- `inc/api.h`          - C API
-- `src/api.cc`         - implementation of C API
+- `inc/api.h`          - Foobar API
+- `src/api.cc`         - implementation of Foobar API
 - `src/application.h`  - Application class
 - `src/application.cc` - implementation of Application class
 - `src/function.h`     - data structures and constants
 - `src/function.c`     - implementation of the functionality
 - `src/example.c`      - simple C example of shared library usage
-- `src/main.cc`        - "main" function
+- `src/main.cc`        - "main" function of CLI
 - `test/test.h`        - Test class
 - `test/test.cc`       - basic tests
 
@@ -226,7 +226,7 @@ Requirements
 ------------
 
 At the moment only **Ubuntu** is supported.
-To build the product install the following packages:
+To build Foobar install the following packages:
 `sudo apt-get install build-essential libtool gcc g++`
 
 How to build?
@@ -236,13 +236,13 @@ Use `make` to build all targets.
 
 ### Targets:
 
-   Target | Description
---------- | -----------
-tool      | command line (CLI) tool
-liblib.so | shared library, implements C API
-liblib.a  | static library
-test      | test binary
-example   | C example
+Target       | Description
+------------ | -----------
+foobar       | Build command line (CLI) tool
+libfoobar.so | shared library, implements C API
+libfoobar.a  | static library
+test         | test binary
+example      | C example
 
 Type `make help` to see additional options.
 
@@ -251,18 +251,18 @@ How to test?
 
 Run `make run-test` to build and run simple test.
 
-When test is built you can run `./test`.
+When test is built you can also run `./test`.
 
 See also available options `./test -h`.
 
 How to use?
 -----------
 
-The something can be used as a command line tool.
-Type `./tool -h` to see available options.
+Foobar can be used as a command line tool.
+Type `./foobar -h` to see available options.
 
-It can be also used as static (liblib.a) or shared (liblib.so) library.
-In your C or C++ file include *api.h* file where *something()* function is declared.
+Foobar can also be used as static (libfoobar.a) or shared (libfoobar.so) library.
+In your C or C++ code include *api.h* file where *foobar()* function is declared.
 In case of shared library you should load it using *dlopen* and *dlsym* functions.
 See simple C example *example.c*.
 ```
@@ -271,26 +271,26 @@ See simple C example *example.c*.
 
 When rendered by GitLab, GitHub, Gitiles etc it will look like the following:
 
-> Something
-> =========
+> Foobar
+> ======
 >
-> This is a library and a tool which implement simple functionality.
+> Foobar is a library and a tool which implement simple functionality.
 > It does something with something to produce interesting artifacts.
-> The library can be used in as a shared object with simple C API.
+> The library can be used as a shared object with simple C API.
 > The tool is a conventional linux command line (CLI) application.
 >
 > Folder structure
 > ----------------
 >
 > - `Makefile`           - simple Makefile to build, clean etc
-> - `inc/api.h`          - C API
-> - `src/api.cc`         - implementation of C API
+> - `inc/api.h`          - Foobar API
+> - `src/api.cc`         - implementation of Foobar API
 > - `src/application.h`  - Application class
 > - `src/application.cc` - implementation of Application class
 > - `src/function.h`     - data structures and constants
 > - `src/function.c`     - implementation of the functionality
 > - `src/example.c`      - simple C example of shared library usage
-> - `src/main.cc`        - "main" function
+> - `src/main.cc`        - "main" function of CLI
 > - `test/test.h`        - Test class
 > - `test/test.cc`       - basic tests
 >
@@ -298,7 +298,7 @@ When rendered by GitLab, GitHub, Gitiles etc it will look like the following:
 > ------------
 >
 > At the moment only **Ubuntu** is supported.
-> To build the product install the following packages:
+> To build Foobar install the following packages:
 > `sudo apt-get install build-essential libtool gcc g++`
 >
 > How to build?
@@ -308,13 +308,13 @@ When rendered by GitLab, GitHub, Gitiles etc it will look like the following:
 >
 > ### Targets:
 >
->    Target | Description
-> --------- | -----------
-> tool      | command line (CLI) tool
-> liblib.so | shared library, implements C API
-> liblib.a  | static library
-> test      | test binary
-> example   | C example
+> Target       | Description
+> ------------ | -----------
+> foobar       | Build command line (CLI) tool
+> libfoobar.so | shared library, implements C API
+> libfoobar.a  | static library
+> test         | test binary
+> example      | C example
 >
 > Type `make help` to see additional options.
 >
@@ -323,18 +323,18 @@ When rendered by GitLab, GitHub, Gitiles etc it will look like the following:
 >
 > Run `make run-test` to build and run simple test.
 >
-> When test is built you can run `./test`.
+> When test is built you can also run `./test`.
 >
 > See also available options `./test -h`.
 >
 > How to use?
 > -----------
 >
-> The something can be used as a command line tool.
-> Type `./tool -h` to see available options.
+> Foobar can be used as a command line tool.
+> Type `./foobar -h` to see available options.
 >
-> It can be also used as static (liblib.a) or shared (liblib.so) library.
-> In your C or C++ file include *api.h* file where *something()* function is declared.
+> Foobar can also be used as static (libfoobar.a) or shared (libfoobar.so) library.
+> In your C or C++ code include *api.h* file where *foobar()* function is declared.
 > In case of shared library you should load it using *dlopen* and *dlsym* functions.
 > See simple C example *example.c*.
 
