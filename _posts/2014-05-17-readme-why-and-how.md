@@ -44,7 +44,6 @@ How to make README file most useful?
 How good README file should look like?
 
 - What file format to use?
-- Which editor to use?
 - Which sections should it contain?
 - Which rules to follow when writing?
 
@@ -90,50 +89,6 @@ The following Markdown flavors are recommended since they are the most popular:
 
 You can also take a look at long list of
 [Markdown Flavors](https://github.com/commonmark/commonmark-spec/wiki/Markdown-Flavors).
-
-### Editor
-
-Basically Markdownd format is just a plain text, so you can use any source code editor.
-However almost all popular code editors have syntax highlighting and rendering preview
-support for Markdown through plugins and extensions.
-
-For example the following is taken from the article
-[The Best Markdown Editor for Linux](https://www.sitepoint.com/the-best-markdown-editor-for-linux/):
-
-* [Vim](http://www.vim.org/) has a
-  [Vim-Markdown plugin](https://github.com/plasticboy/vim-markdown)
-  that features syntax highlighting and folding.
-* [Emacs](https://www.gnu.org/software/emacs/) has a
-  [Markdown Mode for Emacs](http://jblevins.org/projects/markdown-mode/)
-  package that includes shortcut keys and syntax highlighting.
-* [Eclipse](https://eclipse.org/) has the
-  [Markdown Text Editor plugin](https://marketplace.eclipse.org/content/markdown-text-editor)
-  which includes a document outline, folded sections, preview, export to HTML,
-  task tags, word wrap and paragraph formatting.
-* [Visual Source Code](https://code.visualstudio.com/)
-  offers syntax highlighting and
-  [extensions for Markdown](https://code.visualstudio.com/docs/languages/markdown).
-* [Atom](https://atom.io/) supports Markdown out of the box,
-  with features like syntax highlighting and preview.
-  This functionality can be expanded by several community-generated packages, including
-  [Markdown-Writer](https://atom.io/packages/markdown-writer),
-  [Markdown-Scroll-Sync](https://atom.io/packages/markdown-scroll-sync) and
-  [Markdown-Format](https://atom.io/packages/markdown-format).
-* [Sublime Text](https://www.sublimetext.com/) has packages for
-  [Markdown syntax highlighting](https://packagecontrol.io/packages/MarkdownEditing) and
-  [Markdown preview](https://packagecontrol.io/packages/MarkdownPreview)
-* [Spacemacs](http://spacemacs.org/) has a
-  [Markdown layer](http://spacemacs.org/layers/+lang/markdown/README.html)
-  to add Markdown support.
-* [Brackets](http://brackets.io/) has a
-  [Markdown extension](https://github.com/gruehle/MarkdownPreview)
-  with syntax highlighting and a preview pane.
-* [Bluefish](http://bluefish.openoffice.nl/index.html)
-  includes syntax highlighting for Markdown files.
-* [Gedit](https://wiki.gnome.org/Apps/Gedit), the Gnome text editor, offers the
-  [gedit-markdown plugin](https://github.com/jpfleury/gedit-markdown)
-  with live Markdown preview and syntax highlighting.
-* [Kate](https://kate-editor.org/), the KDE text editor, supports Markdown syntax highlighting.
 
 ### Sections
 
@@ -382,6 +337,56 @@ When rendered by GitLab, GitHub, Gitiles etc it will look like the following:
 > In your C or C++ code include *api.h* file where *foobar()* function is declared.
 > In case of shared library you should load it using *dlopen* and *dlsym* functions.
 > See simple C example *example.c*.
+
+## Editor
+
+Another question - which editor to use when writing README.md?
+
+Basically Markdownd format is just a plain text, so we can use any source code editor.
+However almost all popular code editors have syntax highlighting and rendering preview
+support for Markdown through plugins and extensions.
+
+For example the following is taken from the article
+[The Best Markdown Editor for Linux](https://www.sitepoint.com/the-best-markdown-editor-for-linux/):
+
+* [Vim](http://www.vim.org/) has a
+  [Vim-Markdown plugin](https://github.com/plasticboy/vim-markdown)
+  that features syntax highlighting and folding.
+* [Emacs](https://www.gnu.org/software/emacs/) has a
+  [Markdown Mode for Emacs](http://jblevins.org/projects/markdown-mode/)
+  package that includes shortcut keys and syntax highlighting.
+* [Eclipse](https://eclipse.org/) has the
+  [Markdown Text Editor plugin](https://marketplace.eclipse.org/content/markdown-text-editor)
+  which includes a document outline, folded sections, preview, export to HTML,
+  task tags, word wrap and paragraph formatting.
+* [Visual Source Code](https://code.visualstudio.com/)
+  offers syntax highlighting and
+  [extensions for Markdown](https://code.visualstudio.com/docs/languages/markdown).
+* [Atom](https://atom.io/) supports Markdown out of the box,
+  with features like syntax highlighting and preview.
+  This functionality can be expanded by several community-generated packages, including
+  [Markdown-Writer](https://atom.io/packages/markdown-writer),
+  [Markdown-Scroll-Sync](https://atom.io/packages/markdown-scroll-sync) and
+  [Markdown-Format](https://atom.io/packages/markdown-format).
+* [Sublime Text](https://www.sublimetext.com/) has packages for
+  [Markdown syntax highlighting](https://packagecontrol.io/packages/MarkdownEditing) and
+  [Markdown preview](https://packagecontrol.io/packages/MarkdownPreview)
+* [Spacemacs](http://spacemacs.org/) has a
+  [Markdown layer](http://spacemacs.org/layers/+lang/markdown/README.html)
+  to add Markdown support.
+* [Brackets](http://brackets.io/) has a
+  [Markdown extension](https://github.com/gruehle/MarkdownPreview)
+  with syntax highlighting and a preview pane.
+* [Bluefish](http://bluefish.openoffice.nl/index.html)
+  includes syntax highlighting for Markdown files.
+* [Gedit](https://wiki.gnome.org/Apps/Gedit), the Gnome text editor, offers the
+  [gedit-markdown plugin](https://github.com/jpfleury/gedit-markdown)
+  with live Markdown preview and syntax highlighting.
+* [Kate](https://kate-editor.org/), the KDE text editor, supports Markdown syntax highlighting.
+
+There are similar articles about Markdown editors
+for [Mac](https://www.sitepoint.com/the-best-markdown-editors-for-mac/)
+and [Windows](https://www.sitepoint.com/best-markdown-editors-windows/)
 
 ## Links
 
