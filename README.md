@@ -1,3 +1,5 @@
-White type Jekyll theme
+### Software Assay
 
-Based on "Type on Strap" theme
+Some articles about Software Development.
+
+Based on [White type](https://github.com/nettle/white-type) theme.
