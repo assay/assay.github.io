@@ -14,13 +14,31 @@ table {
     margin: 0;
 }
 td {
-    XXXborder: none;
-    border: 1px solid red;
+    border: none;
+    XXXborder: 1px solid red;
+    padding: 0;
+    vertical-align: top;
+    padding-right: 15px;
+}
+h1 {
+
 }
 </style>
 <table>
 <tr>
-<td width="70%">
+<td width="30%">
+
+<h2>Aaaaaaaaaa Aaaaaaaa</h2>
+<img/>
+
+<table>
+<tr><td>bbbbb:</td><td>bbbbbbbbbbbbbbbbbbb</td></tr>
+<tr><td>bbbbb:</td><td>bbbbbbbbbbbbbbbbbbb</td></tr>
+<tr><td>bbbb:</td><td>bbbbbbbbbbbbbbbbbbb</td></tr>
+<tr><td>bbbbbbbb:</td><td>bbb bb bbb bb bb</td></tr>
+</table>
+
+<h2>Cccccc</h2>
 
 <ul>
 <li>Aaaaa</li>
@@ -29,11 +47,22 @@ td {
 </ul>
 
 </td>
-<td width="30%">
+<td width="70%">
 
-<ol>
-<li>Zzzzzzz :)</li>
-</ol>
+<h2>SSSSSSS</h2>
+
+<ul>
+<li>Pppppp ppp pp pp ppppp pp pp p</li>
+<li>Pppppp ppp pp pp ppppp pp pp p</li>
+<li>Pppppp ppp pp pp ppppp pp pp p</li>
+<li>Pppppp ppp pp pp ppppp pp pp p</li>
+<li>Pppppp ppp pp pp ppppp pp pp p</li>
+</ul>
+
+<h2>EEEEEEEEE</h2>
+
+<h3>VjhjHJHjhHGJH / JKHJKHkjhk jhkjhkjh</h3>
+
 
 </td>
 </tr>
