@@ -9,38 +9,68 @@ XXXfeature-img: "assets/img/unsplash/laptop-dark.jpeg"
 
 <style>
 * {
-  font-size: 97%;
+    font-size: 97%;
 }
 
-.left-column {
+.fixed-table {
     max-width: 240px;
     width: 240px;
 }
 
 table {
-    XXXoverflow-x: inherit;
     display: table;
     margin: 0;
 }
 td {
     border: none;
-    XXXborder: 1px solid red;
     padding: 0;
     vertical-align: top;
     padding-right: 15px;
 }
+
 .green, a.green:link {
     color: #00aa44;
 }
+
+.info {
+    float: left;
+    width: 35%;
+    padding-right: 60px;
+}
+
+.experience {
+    float: left;
+    width: 65%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media only screen and (max-width: 900px) {
+    .info {
+        width: 100%;
+    }
+
+    .experience {
+        width: 100%;
+    }
+}
 </style>
-<table>
-<tr>
-<td width="30%" class="left-column">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<div class="row">
+<div class="info">
+
 
 <h1 class="green">Alexander Krapivin</h1>
 <img style="padding:0;" src="/assets/img/alex/6.jpeg"/>
 
-<table>
+<table class="fixed-table">
 <tr><td width="35%">e-mail: </td><td> <a class="green" href="mailto:alexkrapivin@gmx.com">alexkrapivin@gmx.com</a> </td></tr>
 <tr><td>             Skype: </td><td> <a class="green" href="mailto:alexkrapivin@msn.com">alexkrapivin@msn.com</a> </td></tr>
 <tr><td>              Zoom: </td><td> <a class="green" href="mailto:alexkrapivin@gmx.com">alexkrapivin@gmx.com</a> </td></tr>
@@ -50,19 +80,19 @@ td {
 
 <h2 class="green">SKILLS:</h2>
 
-<table>
+<table class="fixed-table">
 <tr><td width="65%">SDLC* processes </td><td class="green"> ⬟⬟⬟⬟⬟ </td></tr>
-<tr><td>Project management  </td><td class="green"> ⬟⬟⬟⬠⬠ </td></tr>
-<tr><td>Web-browser engines </td><td class="green"> ⬟⬟⬟⬟⬟ </td></tr>
-<tr><td>Build systems       </td><td class="green"> ⬟⬟⬟⬟⬟ </td></tr>
-<tr><td>C/C++               </td><td class="green"> ⬟⬟⬟⬟⬠ </td></tr>
-<tr><td>Python              </td><td class="green"> ⬟⬟⬟⬠⬠ </td></tr>
-<tr><td>JavaScript          </td><td class="green"> ⬟⬟⬠⬠⬠ </td></tr>
-<tr><td>Java                </td><td class="green"> ⬟⬠⬠⬠⬠ </td></tr>
-<tr><td>PHP                 </td><td class="green"> ⬟⬠⬠⬠⬠ </td></tr>
-<tr><td>CI/CD               </td><td class="green"> ⬟⬟⬟⬠⬠ </td></tr>
-<tr><td>SQL, Databases      </td><td class="green"> ⬟⬠⬠⬠⬠ </td></tr>
-<tr><td>SCM (Git, Gerrit, GitLab) </td><td class="green"> ⬟⬟⬟⬟⬟ </td></tr>
+<tr><td>Project management          </td><td class="green"> ⬟⬟⬟⬠⬠ </td></tr>
+<tr><td>Web-browser engines         </td><td class="green"> ⬟⬟⬟⬟⬟ </td></tr>
+<tr><td>Build systems               </td><td class="green"> ⬟⬟⬟⬟⬟ </td></tr>
+<tr><td>C/C++                       </td><td class="green"> ⬟⬟⬟⬟⬠ </td></tr>
+<tr><td>Python                      </td><td class="green"> ⬟⬟⬟⬠⬠ </td></tr>
+<tr><td>JavaScript                  </td><td class="green"> ⬟⬟⬠⬠⬠ </td></tr>
+<tr><td>Java                        </td><td class="green"> ⬟⬠⬠⬠⬠ </td></tr>
+<tr><td>PHP                         </td><td class="green"> ⬟⬠⬠⬠⬠ </td></tr>
+<tr><td>CI/CD                       </td><td class="green"> ⬟⬟⬟⬠⬠ </td></tr>
+<tr><td>SQL, Databases              </td><td class="green"> ⬟⬠⬠⬠⬠ </td></tr>
+<tr><td>SCM (Git, Gerrit, GitLab)   </td><td class="green"> ⬟⬟⬟⬟⬟ </td></tr>
 </table>
 
 <p>
@@ -82,10 +112,10 @@ td {
 
 <h2 class="green">EDUCATION:</h2>
 
-<div>St.Petersburg Electrotechnical University (LETI)</div>
+<div><b>St.Petersburg Electrotechnical University (<a href="https://etu.ru/en/">LETI</a>)</b></div>
 <div>Master’s degree</div>
 <div>Speciality: naval electronics</div>
-<div>1988 - 1994, St.Petersburg, Russia</div>
+<div><b>1988 - 1994</b> :: St.Petersburg, Russia</div>
 
 
 <h2 class="green">INTERESTS:</h2>
@@ -113,10 +143,10 @@ td {
 <li>Music: blues, thrash metal</li>
 </ul>
 
-</td>
-<td width="30px">
-</td>
-<td width="70%">
+
+</div>
+<div class="experience">
+
 
 <h2 class="green">SUMMARY:</h2>
 <ul>
@@ -243,6 +273,6 @@ td {
   <li><a href="http://irga.sut.ru/rbasew.html">Radio Base Web</a> – Web-client for spectrum monitoring database (PHP)</li>
 </ul>
 
-</td>
-</tr>
-</table>
+
+</div>
+</div>
