@@ -9,17 +9,12 @@ XXXfeature-img: "assets/img/unsplash/laptop-dark.jpeg"
 
 <style>
 * {
-  font-size: 98%;
+    font-size: 98%;
 }
 
-.right-column {
-    max-width: 230px;
-    width: 230px;
-}
-
-.separator {
-    max-width: 30px;
-    width: 30px;
+.fixed-table {
+    max-width: 240px;
+    width: 240px;
 }
 
 .contacttable td {
@@ -28,90 +23,131 @@ XXXfeature-img: "assets/img/unsplash/laptop-dark.jpeg"
     padding-right: 15px;
 }
 
-.simpletable table {
+.feature-table table {
     display: table;
     margin: 0;
 }
-.simpletable td {
+.feature-table td {
     border: none;
     XXXborder: 1px solid red;
-    padding: 0;
     vertical-align: top;
+    padding: 0;
 }
-.green, a.green:link {
+.feature-table td:nth-child(1) {
+    padding-right: 10px;
+}
+.feature-table td:nth-child(2),
+.feature-table td:nth-child(2) a {
     color: #00aa44;
 }
+
+.contact-table td:nth-child(1) {
+    width: 35%;
+}
+
+.skills-table td:nth-child(1) {
+    width: 65%;
+}
+
+.title {
+    color: #00aa44;
+    text-shadow: none !important;
+}
+
+.left-column {
+    float: left;
+    width: 65%;
+    padding-right: 60px;
+}
+
+.right-column {
+    float: left;
+    width: 35%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media only screen and (max-width: 900px) {
+    .left-column {
+        width: 100%;
+    }
+
+    .right-column {
+        width: 100%;
+    }
+}
+
+.experience {
+    float: left;
+    width: 100%;
+}
+
 </style>
 
-<h1 class="green">Alexander Krapivin</h1>
+<h1 class="title">Alexander Krapivin</h1>
 
-<table class="simpletable">
-<tr>
-<td width="65%">
-    <img style="padding:0;padding-right:15px" src="/assets/img/alex/4.jpeg"/>
-</td>
-<td>
-    <div class="separator"/>
-</td>
-<td width="30%">
-    <div class="right-column"/>
-    <h2 class="green">CONTACT:</h2>
-    <table>
-    <tr><td width="35%">e-mail: </td><td> <a class="green" href="mailto:alexkrapivin@gmx.com">alexkrapivin@gmx.com</a> </td></tr>
-    <tr><td>             Skype: </td><td> <a class="green" href="mailto:alexkrapivin@msn.com">alexkrapivin@msn.com</a> </td></tr>
-    <tr><td>              Zoom: </td><td> <a class="green" href="mailto:alexkrapivin@gmx.com">alexkrapivin@gmx.com</a> </td></tr>
-    <tr><td>          WhatsApp: </td><td> <a class="green" href="tel:+46-76-241-90-66">+46 76 241 90 66</a> </td></tr>
-    <tr><td>             Phone: </td><td> <a class="green" href="tel:+46-72-593-13-87">+46 72 593 13 87</a> </td></tr>
-    </table>
-</td>
-</tr>
+
+<div class="row">
+<div class="left-column">
+
+<img style="padding:0;padding-right:15px" src="/assets/img/alex/4.jpeg"/>
+
+<h2 class="title">SUMMARY:</h2>
+<ul>
+  <li>20+ years of full lifecycle software development</li>
+  <li>10+ years of experience in management of software development,
+  agile methodologies, product management</li>
+  <li>Strong skills in software architecture and design</li>
+  <li>Proficient C/C++ and Python programming</li>
+  <li>Experience in browser engines, web standards and internet technologies,
+  build systems, system programming, complex embedded systems and cross-platform development,
+  distributed systems, digital signal processing.</li>
+</ul>
+
+</div>
+<div class="right-column">
+
+<div class="fixed-table"/>
+<h2 class="title">CONTACT:</h2>
+<table class="feature-table contact-table">
+<tr><td>   e-mail: </td><td> <a href="mailto:alexkrapivin@gmx.com">alexkrapivin@gmx.com</a> </td></tr>
+<tr><td>    Skype: </td><td> <a href="mailto:alexkrapivin@msn.com">alexkrapivin@msn.com</a> </td></tr>
+<tr><td>     Zoom: </td><td> <a href="mailto:alexkrapivin@gmx.com">alexkrapivin@gmx.com</a> </td></tr>
+<tr><td> WhatsApp: </td><td> <a href="tel:+46-76-241-90-66">+46 76 241 90 66</a> </td></tr>
+<tr><td>    Phone: </td><td> <a href="tel:+46-72-593-13-87">+46 72 593 13 87</a> </td></tr>
 </table>
 
-<table class="simpletable">
-<tr>
-<td width="65%">
-    <h2 class="green">SUMMARY:</h2>
-    <ul>
-        <li>20+ years of full lifecycle software development</li>
-        <li>10+ years of experience in management of software development,
-            agile methodologies, product management</li>
-        <li>Strong skills in software architecture and design</li>
-        <li>Proficient C/C++ and Python programming</li>
-        <li>Experience in browser engines, web standards and internet technologies,
-            build systems, system programming, complex embedded systems and cross-platform development,
-            distributed systems, digital signal processing.</li>
-    </ul>
-</td>
-<td>
-    <div class="separator"/>
-</td>
-<td width="30%">
-    <div class="right-column"/>
-    <h2 class="green">SKILLS:</h2>
-    <table>
-    <tr><td width="70%">SDLC* processes </td><td class="green"> ⬟⬟⬟⬟⬟ </td></tr>
-    <tr><td>Project management  </td><td class="green"> ⬟⬟⬟⬠⬠ </td></tr>
-    <tr><td>Web-browser engines </td><td class="green"> ⬟⬟⬟⬟⬟ </td></tr>
-    <tr><td>Build systems       </td><td class="green"> ⬟⬟⬟⬟⬟ </td></tr>
-    <tr><td>C/C++               </td><td class="green"> ⬟⬟⬟⬟⬠ </td></tr>
-    <tr><td>Python              </td><td class="green"> ⬟⬟⬟⬠⬠ </td></tr>
-    <tr><td>JavaScript          </td><td class="green"> ⬟⬟⬠⬠⬠ </td></tr>
-    <tr><td>Java                </td><td class="green"> ⬟⬠⬠⬠⬠ </td></tr>
-    <tr><td>PHP                 </td><td class="green"> ⬟⬠⬠⬠⬠ </td></tr>
-    <tr><td>CI/CD               </td><td class="green"> ⬟⬟⬟⬠⬠ </td></tr>
-    <tr><td>SQL, Databases      </td><td class="green"> ⬟⬠⬠⬠⬠ </td></tr>
-    <tr><td>SCM (Git, Gerrit, GitLab) </td><td class="green"> ⬟⬟⬟⬟⬟ </td></tr>
-    </table>
+<h2 class="title">SKILLS:</h2>
 
-    <p>
-    <sub>
-    * - Software Development Life-Cycle
-    </sub>
-    </p>
-
-</td>
-</tr>
+<table class="feature-table skills-table">
+<tr><td>SDLC* processes          </td><td> ⬟⬟⬟⬟⬟ </td></tr>
+<tr><td>Project management       </td><td> ⬟⬟⬟⬠⬠ </td></tr>
+<tr><td>Web-browser engines      </td><td> ⬟⬟⬟⬟⬟ </td></tr>
+<tr><td>Build systems            </td><td> ⬟⬟⬟⬟⬟ </td></tr>
+<tr><td>C/C++                    </td><td> ⬟⬟⬟⬟⬠ </td></tr>
+<tr><td>Python                   </td><td> ⬟⬟⬟⬠⬠ </td></tr>
+<tr><td>JavaScript               </td><td> ⬟⬟⬠⬠⬠ </td></tr>
+<tr><td>Java                     </td><td> ⬟⬠⬠⬠⬠ </td></tr>
+<tr><td>PHP                      </td><td> ⬟⬠⬠⬠⬠ </td></tr>
+<tr><td>CI/CD                    </td><td> ⬟⬟⬟⬠⬠ </td></tr>
+<tr><td>SQL, Databases           </td><td> ⬟⬠⬠⬠⬠ </td></tr>
+<tr><td>SCM (Git, Gerrit, GitLab)</td><td> ⬟⬟⬟⬟⬟ </td></tr>
 </table>
+
+<div>
+<sub>
+* - Software Development Life-Cycle
+</sub>
+</div>
+
+</div>
+</div>
+
 
 <!--
 ----------|---------------------
@@ -171,7 +207,8 @@ SCM (Git, Gerrit, GitLab) | ⬟⬟⬟⬟⬟
 * CI/CD optimization to minimize processing time and increase testability
 -->
 
-<h2 class="green">EXPERIENCE:</h2>
+<div class="experience">
+<h2 class="title">EXPERIENCE:</h2>
 
 <h3>Ericsson / Software Developer</h3>
 <hr/>
@@ -283,3 +320,5 @@ SCM (Git, Gerrit, GitLab) | ⬟⬟⬟⬟⬟
       (C++ Builder, MySQL, Informix, MS SQL)</li>
   <li><a href="http://irga.sut.ru/rbasew.html">Radio Base Web</a> – Web-client for spectrum monitoring database (PHP)</li>
 </ul>
+
+</div>
