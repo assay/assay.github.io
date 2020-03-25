@@ -26,10 +26,10 @@ Why `team` - for big projects one Product Manaer is not enough.
 - Define Product hierarchy and Functional module structure and Product Deliverables
 - Develop and keep updated Product development Roadmap
 taking into account all technical and business aspects, including:
-  ** Requirement Management
-  ** Risk Management
-  ** Resource Management
-  ** Release Management
+   * Requirement Management
+   * Risk Management
+   * Resource Management
+   * Release Management
   etc
 - Monitor and control Feature Development and Product Releases (via Product Owners of Development Teams)
 - Customer negotiation and Customer satisfaction
@@ -59,10 +59,10 @@ if they satisfy requirements (see below)
 
 ## Software Architecture team
 
-Why `Software` - the main focus of the team should be on +Software Development aspects+ of the BBI,
-while Domain area and Product roadmap should define functional goals for the BBI.
+Why `Software` - the main focus of the team should be on _Software Development aspects_,
+while Product Vision and Product Roadmap should be defined by Product Management team.
 
-Why `Architecture` - the team is responsible for all +architectural and structural changes+ of the BBI.
+Why `Architecture` - the team is responsible for all _architectural and structural changes_.
 
 Why `team` - for big project one [Software Architect](https://en.wikipedia.org/wiki/Software_architect)
 role is not enough, Architects team should be able to solve different usually rather complex technical problems.
@@ -96,5 +96,5 @@ role is not enough, Architects team should be able to solve different usually ra
 - Good understanding of SDLC (Software Development Life Cycle)
 - Good knowledge of modern Software Development methodologies
 - Good communication skills
-- Some knowledge of BB architecture and project structure
+- Good knowledge of the domain area
 - Good to have experience with Open Source projects
