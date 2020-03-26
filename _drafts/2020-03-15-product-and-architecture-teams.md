@@ -1,12 +1,12 @@
 ---
 layout: post
 title: "Product Management and Software Architecture teams"
-feature-img: assets/img/unsplash/code-black.jpeg
-tags: [Product Management], [Software Architecture]
+feature-img: assets/img/pexels/notebooks.jpeg
+tags: [Product Management, Software Architecture]
 author-id: nettle
 ---
 
-Considering big (more than 50 members) Software Development projects the organization structure is important.
+For relatively large, more than 50 members, Software Development projects the organization structure is very important.
 Modern projects usually have two important teams: Product Management team and Software Architecture team.
 Here are Responsibilities for these teams and Requirements to their members.
 
@@ -18,9 +18,9 @@ Why `Management` - [Management](https://en.wikipedia.org/wiki/Management)
 here mostly means [Software project management](https://en.wikipedia.org/wiki/Software_project_management)
 including leading, planning, execution, monitoring and control.
 
-Why `team` - for big projects one Product Manaer is not enough.
+Why `team` - for big projects one Product Manager is not enough.
 
-### Responsibilities:
+#### Responsibilities:
 
 - Set the Product Vision and Strategy
 - Define Product hierarchy and Functional module structure and Product Deliverables
@@ -34,19 +34,20 @@ taking into account all technical and business aspects, including:
 - Monitor and control Feature Development and Product Releases (via Product Owners of Development Teams)
 - Customer negotiation and Customer satisfaction
 
-### Basic operation principles:
+#### Basic operation principles:
 
 - A number of Product Management team members is 5-7
 - Product Management team should operate as an ordinary Agile team (SM, PO, Planning, Grooming, Retrospective etc)
 - The members of Development teams can be promoted to Product Management team
-if they satisfy requirements (see below)
+  if they satisfy requirements (see below)
 - The goals of Product Management team must be prioritized among other activities
-- Product Management team involves Software Architecture team in the development of the Software Architecture and Module Structure (directly or via PO of the Software Architecture team)
+- Product Management team involves Software Architecture team in the development
+  of the Software Architecture and Module Structure (directly or via PO of the Software Architecture team)
 - Product Management team monitors and controls Feature Development and Product Releases (via POs of Development teams)
 - Product Management team organizes Cross-Functional and Cross-Domain teams
 - Product Owner in the Product Management team represents the Customer(s) and/or the Stakeholder(s) 
 
-### Requirements:
+#### Requirements:
 
 - Excellent communication, presentation and negotiation skills
 - Exceptional organizational and administrative skills
@@ -55,7 +56,7 @@ if they satisfy requirements (see below)
 - Knowledge of Software Development processes, SDLC (Software Development Life Cycle)
 - Good understanding of Feature Development and Release Management
 
-----
+![Software Architecture team]({{ "assets/img/pexels/chalk-conceptual.jpg" | relative_url}})
 
 ## Software Architecture team
 
@@ -65,17 +66,20 @@ while Product Vision and Product Roadmap should be defined by Product Management
 Why `Architecture` - the team is responsible for all _architectural and structural changes_.
 
 Why `team` - for big project one [Software Architect](https://en.wikipedia.org/wiki/Software_architect)
-role is not enough, Architects team should be able to solve different usually rather complex technical problems.
+role is not enough, the team should be able to solve different, usually rather complex technical problems.
 
-### Responsibilities:
+#### Responsibilities:
 
 - Define Software Architecture and Module Structure
-- Define which Software Development technologies, tools and platforms
+- Decide Software Development technologies, tools and platforms
 - Plan, lead and perform major structural changes to ensure future development
 - Develop and enforce common Coding conventions, Design rules and Best Practices
-- Gradually improve Software Development processes to speed-up Feature development and increase Code and Product Quality
+- Manage Source Code repo(s), define folder structure, own root folder
+- Make strategical and High Level Design decisions
+- Review, approve or reject major Source Code changes, resolve conflict situations
+- Gradually improve Software Development processes to speed-up Feature Development and increase Code and Product Quality
 
-### Basic operation principles:
+#### Basic operation principles:
 
 - A number of Software Architecture team members is 5-7
 - Software Architecture team should operate as an ordinary Agile team (SM, PO, Planning, Grooming, Retrospective etc)
@@ -86,7 +90,7 @@ role is not enough, Architects team should be able to solve different usually ra
   to fulfill short- and long-term product development goals
 - Product Owner in the Software Architecture team represents Product Management team
 
-### Requirements:
+#### Requirements:
 
 - Exceptional programming skills with several modern programming languages (including C/C++, Python, Java, JavaScript)
 - Experience with large Software Projects
