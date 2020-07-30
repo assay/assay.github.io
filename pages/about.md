@@ -82,16 +82,16 @@ td {
 
 <table class="fixed-table">
 <tr><td width="65%">SDLC* processes </td><td class="green"> ⬟⬟⬟⬟⬟ </td></tr>
-<tr><td>Project management          </td><td class="green"> ⬟⬟⬟⬠⬠ </td></tr>
+<tr><td>Project management          </td><td class="green"> ⬟⬟⬟⬟⬟ </td></tr>
 <tr><td>Web-browser engines         </td><td class="green"> ⬟⬟⬟⬟⬟ </td></tr>
 <tr><td>Build systems               </td><td class="green"> ⬟⬟⬟⬟⬟ </td></tr>
 <tr><td>C/C++                       </td><td class="green"> ⬟⬟⬟⬟⬠ </td></tr>
-<tr><td>Python                      </td><td class="green"> ⬟⬟⬟⬠⬠ </td></tr>
+<tr><td>Python                      </td><td class="green"> ⬟⬟⬟⬟⬠ </td></tr>
 <tr><td>JavaScript                  </td><td class="green"> ⬟⬟⬠⬠⬠ </td></tr>
 <tr><td>Java                        </td><td class="green"> ⬟⬠⬠⬠⬠ </td></tr>
 <tr><td>PHP                         </td><td class="green"> ⬟⬠⬠⬠⬠ </td></tr>
-<tr><td>CI/CD                       </td><td class="green"> ⬟⬟⬟⬠⬠ </td></tr>
 <tr><td>SQL, Databases              </td><td class="green"> ⬟⬠⬠⬠⬠ </td></tr>
+<tr><td>CI/CD, DevOp                </td><td class="green"> ⬟⬟⬟⬠⬠ </td></tr>
 <tr><td>SCM (Git, Gerrit, GitLab)   </td><td class="green"> ⬟⬟⬟⬟⬟ </td></tr>
 </table>
 
