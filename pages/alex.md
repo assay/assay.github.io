@@ -126,16 +126,16 @@ XXXfeature-img: "assets/img/unsplash/laptop-dark.jpeg"
 
 <table class="feature-table skills-table">
 <tr><td>SDLC* processes          </td><td> ⬟⬟⬟⬟⬟ </td></tr>
-<tr><td>Project management       </td><td> ⬟⬟⬟⬠⬠ </td></tr>
+<tr><td>Project management       </td><td> ⬟⬟⬟⬟⬟ </td></tr>
 <tr><td>Web-browser engines      </td><td> ⬟⬟⬟⬟⬟ </td></tr>
 <tr><td>Build systems            </td><td> ⬟⬟⬟⬟⬟ </td></tr>
 <tr><td>C/C++                    </td><td> ⬟⬟⬟⬟⬠ </td></tr>
-<tr><td>Python                   </td><td> ⬟⬟⬟⬠⬠ </td></tr>
+<tr><td>Python                   </td><td> ⬟⬟⬟⬟⬠ </td></tr>
 <tr><td>JavaScript               </td><td> ⬟⬟⬠⬠⬠ </td></tr>
 <tr><td>Java                     </td><td> ⬟⬠⬠⬠⬠ </td></tr>
 <tr><td>PHP                      </td><td> ⬟⬠⬠⬠⬠ </td></tr>
-<tr><td>CI/CD                    </td><td> ⬟⬟⬟⬠⬠ </td></tr>
 <tr><td>SQL, Databases           </td><td> ⬟⬠⬠⬠⬠ </td></tr>
+<tr><td>CI/CD, DevOps            </td><td> ⬟⬟⬟⬠⬠ </td></tr>
 <tr><td>SCM (Git, Gerrit, GitLab)</td><td> ⬟⬟⬟⬟⬟ </td></tr>
 </table>
 
