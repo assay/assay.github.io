@@ -83,13 +83,14 @@ td {
 <table class="fixed-table">
 <tr><td width="65%">SDLC* processes </td><td class="green"> ⬟⬟⬟⬟⬟ </td></tr>
 <tr><td>Project management          </td><td class="green"> ⬟⬟⬟⬟⬟ </td></tr>
+<tr><td>Pruduct management          </td><td class="green"> ⬟⬟⬟⬟⬠ </td></tr>
 <tr><td>Web-browser engines         </td><td class="green"> ⬟⬟⬟⬟⬟ </td></tr>
 <tr><td>Build systems               </td><td class="green"> ⬟⬟⬟⬟⬟ </td></tr>
 <tr><td>C/C++                       </td><td class="green"> ⬟⬟⬟⬟⬠ </td></tr>
 <tr><td>Python                      </td><td class="green"> ⬟⬟⬟⬟⬠ </td></tr>
 <tr><td>JavaScript                  </td><td class="green"> ⬟⬟⬠⬠⬠ </td></tr>
+<tr><td>PHP                         </td><td class="green"> ⬟⬟⬠⬠⬠ </td></tr>
 <tr><td>Java                        </td><td class="green"> ⬟⬠⬠⬠⬠ </td></tr>
-<tr><td>PHP                         </td><td class="green"> ⬟⬠⬠⬠⬠ </td></tr>
 <tr><td>SQL, Databases              </td><td class="green"> ⬟⬠⬠⬠⬠ </td></tr>
 <tr><td>CI/CD, DevOp                </td><td class="green"> ⬟⬟⬟⬠⬠ </td></tr>
 <tr><td>SCM (Git, Gerrit, GitLab)   </td><td class="green"> ⬟⬟⬟⬟⬟ </td></tr>
@@ -133,6 +134,7 @@ td {
 <ul>
 <li>East Asia</li>
 <li>USA</li>
+<li>UK, EU</li>
 <li>Australia</li>
 </ul>
 <h4>Hobbies:</h4>
@@ -170,6 +172,8 @@ td {
 <br/>
 
 <ul>
+  <li>Code Quality analysis solution based on Ericsson <a href="https://github.com/Ericsson/codechecker">CodeChecker</a>
+      to measure, monitor and improve the quality characteristics of C/C++ and Python source code</li>
   <li>Relocator - a tool and a library to perform relocation of ”absolute” code
       (none-<a href="https://en.wikipedia.org/wiki/Position-independent_code">PIC</a>) at load time
       (<a href="https://en.wikipedia.org/wiki/Executable_and_Linkable_Format">ELF</a>,
