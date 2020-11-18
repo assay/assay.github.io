@@ -92,7 +92,7 @@ td {
 <tr><td>PHP                         </td><td class="green"> ⬟⬟⬠⬠⬠ </td></tr>
 <tr><td>Java                        </td><td class="green"> ⬟⬠⬠⬠⬠ </td></tr>
 <tr><td>SQL, Databases              </td><td class="green"> ⬟⬠⬠⬠⬠ </td></tr>
-<tr><td>CI/CD, DevOp                </td><td class="green"> ⬟⬟⬟⬠⬠ </td></tr>
+<tr><td>CI/CD, DevOps               </td><td class="green"> ⬟⬟⬟⬠⬠ </td></tr>
 <tr><td>SCM (Git, Gerrit, GitLab)   </td><td class="green"> ⬟⬟⬟⬟⬟ </td></tr>
 </table>
 
