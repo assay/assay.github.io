@@ -92,7 +92,7 @@ td {
 <tr><td>PHP                         </td><td class="green"> ⬟⬟⬠⬠⬠ </td></tr>
 <tr><td>Java                        </td><td class="green"> ⬟⬠⬠⬠⬠ </td></tr>
 <tr><td>SQL, Databases              </td><td class="green"> ⬟⬠⬠⬠⬠ </td></tr>
-<tr><td>CI/CD, DevOps               </td><td class="green"> ⬟⬟⬟⬠⬠ </td></tr>
+<tr><td>CI/CD, DevOps, GitOps       </td><td class="green"> ⬟⬟⬟⬠⬠ </td></tr>
 <tr><td>SCM (Git, Gerrit, GitLab)   </td><td class="green"> ⬟⬟⬟⬟⬟ </td></tr>
 </table>
 
@@ -167,7 +167,7 @@ td {
 <h3>Ericsson / Software Developer</h3>
 <hr/>
 <div><b>2018 - present</b> :: Stockholm, Sweden</div>
-<div><b>Roles:</b> Software Developer, QA Prime, Agile coach</div>
+<div><b>Roles:</b> Software Developer, QA Prime</div>
 <div><b>Major achievements:</b></div>
 <br/>
 
