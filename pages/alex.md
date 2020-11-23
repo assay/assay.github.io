@@ -135,7 +135,7 @@ XXXfeature-img: "assets/img/unsplash/laptop-dark.jpeg"
 <tr><td>Java                     </td><td> ⬟⬠⬠⬠⬠ </td></tr>
 <tr><td>PHP                      </td><td> ⬟⬠⬠⬠⬠ </td></tr>
 <tr><td>SQL, Databases           </td><td> ⬟⬠⬠⬠⬠ </td></tr>
-<tr><td>CI/CD, DevOps            </td><td> ⬟⬟⬟⬠⬠ </td></tr>
+<tr><td>CI/CD, DevOps, GitOps    </td><td> ⬟⬟⬟⬠⬠ </td></tr>
 <tr><td>SCM (Git, Gerrit, GitLab)</td><td> ⬟⬟⬟⬟⬟ </td></tr>
 </table>
 
@@ -192,7 +192,7 @@ SCM (Git, Gerrit, GitLab) | ⬟⬟⬟⬟⬟
 ### Ericsson :: *Software Developer*
 * * * * * * *
 **2018 - present ::** *Stockholm, Sweden*\\
-**Roles:** Software Developer, QA Prime, Agile coach\\
+**Roles:** Software Developer, QA Prime\\
 **Major achievements:**
 
 * Relocator - a tool and a library to perform relocation of ”absolute” code
@@ -213,11 +213,13 @@ SCM (Git, Gerrit, GitLab) | ⬟⬟⬟⬟⬟
 <h3>Ericsson / Software Developer</h3>
 <hr/>
 <div><b>2018 - present</b> :: Stockholm, Sweden</div>
-<div><b>Roles:</b> Software Developer, QA Prime, Agile coach</div>
+<div><b>Roles:</b> Software Developer, QA Prime</div>
 <div><b>Major achievements:</b></div>
 <br/>
 
 <ul>
+  <li>Code Quality analysis solution based on Ericsson <a href="https://github.com/Ericsson/codechecker">CodeChecker</a>
+      to measure, monitor and improve the quality characteristics of C/C++ and Python source code</li>
   <li>Relocator - a tool and a library to perform relocation of ”absolute” code
       (none-<a href="https://en.wikipedia.org/wiki/Position-independent_code">PIC</a>) at load time
       (<a href="https://en.wikipedia.org/wiki/Executable_and_Linkable_Format">ELF</a>,
