@@ -132,8 +132,8 @@ XXXfeature-img: "assets/img/unsplash/laptop-dark.jpeg"
 <tr><td>C/C++                    </td><td> ⬟⬟⬟⬟⬠ </td></tr>
 <tr><td>Python                   </td><td> ⬟⬟⬟⬟⬠ </td></tr>
 <tr><td>JavaScript               </td><td> ⬟⬟⬟⬠⬠ </td></tr>
+<tr><td>PHP                      </td><td> ⬟⬟⬠⬠⬠ </td></tr>
 <tr><td>Java                     </td><td> ⬟⬠⬠⬠⬠ </td></tr>
-<tr><td>PHP                      </td><td> ⬟⬠⬠⬠⬠ </td></tr>
 <tr><td>SQL, Databases           </td><td> ⬟⬠⬠⬠⬠ </td></tr>
 <tr><td>CI/CD, DevOps, GitOps    </td><td> ⬟⬟⬟⬠⬠ </td></tr>
 <tr><td>SCM (Git, Gerrit, GitLab)</td><td> ⬟⬟⬟⬟⬟ </td></tr>
@@ -171,18 +171,18 @@ Phone:    | [+46 72 593 13 87]()
 
 ## SKILLS
 
---------------------|---------
-SDLC`*` processes   | ⬟⬟⬟⬟⬟
-Project management  | ⬟⬟⬟⬠⬠
-Web-browser engines | ⬟⬟⬟⬟⬟
-Build systems       | ⬟⬟⬟⬟⬟
-C/C++               | ⬟⬟⬟⬟⬠
-Python              | ⬟⬟⬟⬠⬠
-JavaScript          | ⬟⬟⬟⬠⬠
-Java                | ⬟⬠⬠⬠⬠
-PHP                 | ⬟⬠⬠⬠⬠
-CI/CD               | ⬟⬟⬟⬠⬠
-SQL, Databases      | ⬟⬠⬠⬠⬠
+--------------------------|---------
+SDLC`*` processes         | ⬟⬟⬟⬟⬟
+Project management        | ⬟⬟⬟⬠⬠
+Web-browser engines       | ⬟⬟⬟⬟⬟
+Build systems             | ⬟⬟⬟⬟⬟
+C/C++                     | ⬟⬟⬟⬟⬠
+Python                    | ⬟⬟⬟⬠⬠
+JavaScript                | ⬟⬟⬟⬠⬠
+PHP                       | ⬟⬟⬠⬠⬠
+Java                      | ⬟⬠⬠⬠⬠
+SQL, Databases            | ⬟⬠⬠⬠⬠
+CI/CD, DevOps, GitOps     | ⬟⬟⬟⬠⬠
 SCM (Git, Gerrit, GitLab) | ⬟⬟⬟⬟⬟
 {:.contacttable}
 `* - Software Development Life-Cycle`
