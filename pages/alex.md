@@ -131,7 +131,7 @@ XXXfeature-img: "assets/img/unsplash/laptop-dark.jpeg"
 <tr><td>Build systems            </td><td> ⬟⬟⬟⬟⬟ </td></tr>
 <tr><td>C/C++                    </td><td> ⬟⬟⬟⬟⬠ </td></tr>
 <tr><td>Python                   </td><td> ⬟⬟⬟⬟⬠ </td></tr>
-<tr><td>JavaScript               </td><td> ⬟⬟⬠⬠⬠ </td></tr>
+<tr><td>JavaScript               </td><td> ⬟⬟⬟⬠⬠ </td></tr>
 <tr><td>Java                     </td><td> ⬟⬠⬠⬠⬠ </td></tr>
 <tr><td>PHP                      </td><td> ⬟⬠⬠⬠⬠ </td></tr>
 <tr><td>SQL, Databases           </td><td> ⬟⬠⬠⬠⬠ </td></tr>
@@ -178,7 +178,7 @@ Web-browser engines | ⬟⬟⬟⬟⬟
 Build systems       | ⬟⬟⬟⬟⬟
 C/C++               | ⬟⬟⬟⬟⬠
 Python              | ⬟⬟⬟⬠⬠
-JavaScript          | ⬟⬟⬠⬠⬠
+JavaScript          | ⬟⬟⬟⬠⬠
 Java                | ⬟⬠⬠⬠⬠
 PHP                 | ⬟⬠⬠⬠⬠
 CI/CD               | ⬟⬟⬟⬠⬠
@@ -219,7 +219,8 @@ SCM (Git, Gerrit, GitLab) | ⬟⬟⬟⬟⬟
 
 <ul>
   <li>Code Quality analysis solution based on Ericsson <a href="https://github.com/Ericsson/codechecker">CodeChecker</a>
-      to measure, monitor and improve the quality characteristics of C/C++ and Python source code</li>
+      to measure, monitor and improve the quality characteristics of C/C++ and Python source code
+      (Python, JavaScript, Starlark)</li>
   <li>Relocator - a tool and a library to perform relocation of ”absolute” code
       (none-<a href="https://en.wikipedia.org/wiki/Position-independent_code">PIC</a>) at load time
       (<a href="https://en.wikipedia.org/wiki/Executable_and_Linkable_Format">ELF</a>,
@@ -228,7 +229,7 @@ SCM (Git, Gerrit, GitLab) | ⬟⬟⬟⬟⬟
       (<a href="http://llvm.org">LLVM</a>, C++)</li>
   <li>Lightweight OS (LPP) boot generator refactoring (Perl to Python) to improve maintainability, flexibility and testability</li>
   <li>Migration to <a href="https://bazel.build">Bazel</a> build system (from in-house one)
-      to improve performance and maintainability</li>
+      to improve performance and maintainability (Starlark, Python)</li>
   <li>Documentation generator for Bazel-based build system (Python + Gatsby)</li>
   <li>Agile team process (Kanban, Retrospective, Backlog grooming, Daily standup) to increase productivity and transparency</li>
   <li>Product Quality evaluation (<a href="https://iso25000.com/">ISO 25000</a>)
