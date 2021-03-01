@@ -118,7 +118,7 @@ XXXfeature-img: "assets/img/unsplash/laptop-dark.jpeg"
 <tr><td>   e-mail: </td><td> <a href="mailto:alexkrapivin@gmx.com">alexkrapivin@gmx.com</a> </td></tr>
 <tr><td>    Skype: </td><td> <a href="mailto:alexkrapivin@msn.com">alexkrapivin@msn.com</a> </td></tr>
 <tr><td>     Zoom: </td><td> <a href="mailto:alexkrapivin@gmx.com">alexkrapivin@gmx.com</a> </td></tr>
-<tr><td> WhatsApp: </td><td> <a href="tel:+46-76-241-90-66">+46 76 241 90 66</a> </td></tr>
+<tr><td> WhatsApp: </td><td> <a href="tel:+46-76-241-90-68">+46 76 241 90 68</a> </td></tr>
 <tr><td>    Phone: </td><td> <a href="tel:+46-72-593-13-87">+46 72 593 13 87</a> </td></tr>
 </table>
 
@@ -154,7 +154,7 @@ XXXfeature-img: "assets/img/unsplash/laptop-dark.jpeg"
 e-mail:   | [alexkrapivin@gmx.com]()
 Skype:    | [alexkrapivin@msn.com]()
 Zoom:     | [alexkrapivin@gmx.com]()
-WhatsApp: | [+46 76 241 90 66]()
+WhatsApp: | [+46 76 241 90 68]()
 Phone:    | [+46 72 593 13 87]()
 {:.contacttable}
 
