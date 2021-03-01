@@ -74,7 +74,7 @@ td {
 <tr><td width="35%">e-mail: </td><td> <a class="green" href="mailto:alexkrapivin@gmx.com">alexkrapivin@gmx.com</a> </td></tr>
 <tr><td>             Skype: </td><td> <a class="green" href="mailto:alexkrapivin@msn.com">alexkrapivin@msn.com</a> </td></tr>
 <tr><td>              Zoom: </td><td> <a class="green" href="mailto:alexkrapivin@gmx.com">alexkrapivin@gmx.com</a> </td></tr>
-<tr><td>          WhatsApp: </td><td> <a class="green" href="tel:+46-76-241-90-66">+46 76 241 90 66</a> </td></tr>
+<tr><td>          WhatsApp: </td><td> <a class="green" href="tel:+46-76-241-90-66">+46 76 241 90 68</a> </td></tr>
 <tr><td>             Phone: </td><td> <a class="green" href="tel:+46-72-593-13-87">+46 72 593 13 87</a> </td></tr>
 </table>
 
