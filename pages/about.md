@@ -167,7 +167,7 @@ td {
 <h3>Ericsson / Software Developer</h3>
 <hr/>
 <div><b>2018 - present</b> :: Stockholm, Sweden</div>
-<div><b>Roles:</b> Software Developer, QA Prime</div>
+<div><b>Roles:</b> Software Developer (Stage 6), QA Prime</div>
 <div><b>Major achievements:</b></div>
 <br/>
 
@@ -228,7 +228,7 @@ td {
 <h3>LG Electronics  / Chief Research Engineer</h3>
 <hr/>
 <div><b>2005 - 2014</b> :: St.Petersburg, Russia and Seoul, South Korea</div>
-<div><b>Roles:</b> Software Developer, Team Leader, Project Manager, Line Manager</div>
+<div><b>Roles:</b> Software Developer, Team Leader, Project Manager, Line Manager (22 engineers, 5 teams)</div>
 <div><b>Major achievements:</b></div>
 <br/>
 
